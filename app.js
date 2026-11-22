@@ -8,10 +8,10 @@
   ];
 
   const courses = [
-    { name: "Lanna Golf Club", lat: 18.8245, lng: 98.9788, kind: "golf", blurb: "₩53,300 · 10–20 min" },
-    { name: "North Hill Golf Club", lat: 18.8492, lng: 99.0186, kind: "golf", blurb: "₩98,800 · Apr 15" },
-    { name: "Mae Jo Golf Club", lat: 18.8965, lng: 99.0458, kind: "golf", blurb: "₩112,600" },
-    { name: "Chiang Mai Highlands", lat: 18.8410, lng: 99.1680, kind: "golf", blurb: "₩134,300 · Apr 16" },
+    { name: "Lanna Golf Club", lat: 18.8245, lng: 98.9788, kind: "golf", blurb: "Nearest · pick · Apr 16 · ₩53,300" },
+    { name: "North Hill Golf Club", lat: 18.8492, lng: 99.0186, kind: "golf", blurb: "₩98,800 · backup" },
+    { name: "Mae Jo Golf Club", lat: 18.8965, lng: 99.0458, kind: "golf", blurb: "₩112,600 · backup" },
+    { name: "Chiang Mai Highlands", lat: 18.8410, lng: 99.1680, kind: "golf", blurb: "₩134,300 · farther" },
     { name: "Alpine Golf Resort", lat: 18.7725, lng: 99.1920, kind: "golf", blurb: "₩146,200" },
   ];
 
