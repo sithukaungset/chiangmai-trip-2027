@@ -1,14 +1,14 @@
 (() => {
   const hotels = [
-    { name: "Anodard Hotel", lat: 18.7856, lng: 98.9869, kind: "hotel", blurb: "Budget · Old City" },
-    { name: "POR Thapae Gate", lat: 18.7876, lng: 98.9933, kind: "hotel", blurb: "Boutique · recommended" },
-    { name: "Hotel M Chiang Mai", lat: 18.7881, lng: 98.9936, kind: "hotel", blurb: "Mid-range · Tha Phae" },
-    { name: "99 the Heritage", lat: 18.7887, lng: 98.9815, kind: "hotel", blurb: "Premium · Wat Phra Singh" },
-    { name: "B2 Santitham", lat: 18.8035, lng: 98.9855, kind: "hotel", blurb: "Budget chain" },
+    { name: "Hotel M Chiang Mai", lat: 18.7881, lng: 98.9936, kind: "hotel", blurb: "BOOKED · Apr 14–17 · Tha Phae" },
+    { name: "Anodard Hotel", lat: 18.7856, lng: 98.9869, kind: "hotel", blurb: "Compared earlier" },
+    { name: "POR Thapae Gate", lat: 18.7876, lng: 98.9933, kind: "hotel", blurb: "Looked at earlier" },
+    { name: "99 the Heritage", lat: 18.7887, lng: 98.9815, kind: "hotel", blurb: "Premium · compared" },
+    { name: "B2 Santitham", lat: 18.8035, lng: 98.9855, kind: "hotel", blurb: "Dad list · compared" },
   ];
 
   const courses = [
-    { name: "Lanna Golf Club", lat: 18.8245, lng: 98.9788, kind: "golf", blurb: "Nearest · pick · Apr 16 · ₩53,300" },
+    { name: "Lanna Golf Club", lat: 18.8245, lng: 98.9788, kind: "golf", blurb: "Nearest to Hotel M · deciding · ₩53,300" },
     { name: "North Hill Golf Club", lat: 18.8492, lng: 99.0186, kind: "golf", blurb: "₩98,800 · backup" },
     { name: "Mae Jo Golf Club", lat: 18.8965, lng: 99.0458, kind: "golf", blurb: "₩112,600 · backup" },
     { name: "Chiang Mai Highlands", lat: 18.8410, lng: 99.1680, kind: "golf", blurb: "₩134,300 · farther" },
