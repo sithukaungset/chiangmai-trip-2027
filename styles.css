@@ -340,6 +340,91 @@ a {
   color: var(--leaf);
 }
 
+.flight-summary {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1.75rem;
+  padding: 1.2rem 1.35rem;
+  border-radius: var(--radius);
+  background: var(--white);
+  border: 1px solid rgba(42, 26, 18, 0.08);
+  box-shadow: 0 10px 28px rgba(42, 26, 18, 0.06);
+}
+
+.price.big {
+  margin: 0.25rem 0 0.35rem;
+  font-size: clamp(1.25rem, 2.5vw, 1.65rem);
+}
+
+.flight-dir {
+  margin: 1.75rem 0 0.35rem;
+  color: var(--teak);
+  font-size: 1.15rem;
+}
+
+.flight-note {
+  margin: 0 0 0.9rem;
+  color: rgba(28, 20, 16, 0.7);
+  font-size: 0.95rem;
+}
+
+.flight-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.9rem;
+}
+
+.flight-card {
+  background: var(--white);
+  border-radius: 14px;
+  padding: 1rem 1.1rem;
+  border: 1px solid rgba(42, 26, 18, 0.08);
+  box-shadow: 0 8px 22px rgba(42, 26, 18, 0.06);
+}
+
+.flight-card.featured {
+  outline: 2px solid rgba(196, 163, 90, 0.65);
+}
+
+.flight-top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 0.75rem;
+  margin-bottom: 0.55rem;
+}
+
+.flight-top .tag {
+  position: static;
+}
+
+.flight-top strong {
+  font-family: var(--font-latin);
+  color: var(--teak);
+}
+
+.flight-time {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  margin: 0 0 0.35rem;
+  font-family: var(--font-latin);
+  font-weight: 700;
+  font-size: 1.05rem;
+}
+
+.flight-time i {
+  font-style: normal;
+  color: var(--leaf);
+}
+
+.flight-card .price {
+  margin-top: 0.45rem;
+}
+
 .booked-banner {
   display: grid;
   grid-template-columns: 1.2fr 0.8fr;
@@ -637,7 +722,8 @@ a {
 }
 
 @media (max-width: 960px) {
-  .card-grid {
+  .card-grid,
+  .flight-list {
     grid-template-columns: repeat(2, 1fr);
   }
 
@@ -666,7 +752,8 @@ a {
     max-width: none;
   }
 
-  .card-grid {
+  .card-grid,
+  .flight-list {
     grid-template-columns: 1fr;
   }
 
